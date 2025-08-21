@@ -5,7 +5,7 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: rgba(210, 187, 118, 0.458);
+    background-color: rgba(183, 149, 149, 0.764);
     
 }
    
@@ -41,5 +41,11 @@ body{
 @media screen and (max-width:450px) {
     .container{
         max-width:min-content;
+    }
+    .heading{
+        border: none;
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 }
